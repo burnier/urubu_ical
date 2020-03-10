@@ -1,3 +1,10 @@
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ <?php echo 
+  '
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//mxm.dk//
@@ -13,4 +20,9 @@ DTSTART;VALUE=DATE-TIME:20200315T213000
 DTEND;VALUE=DATE-TIME:20200315T233000
 LOCATION:Campeonato Carioca
 END:VEVENT
-END:VCALENDAR
+END:VCALENDAR  
+  '; ?> 
+ </body>
+</html>
+
+
