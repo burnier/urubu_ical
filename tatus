@@ -1,0 +1,273 @@
+warning: LF will be replaced by CRLF in Flamengo_DB.ipynb.
+The file will have its original line endings in your working directory
+[1mdiff --git a/Flamengo_DB.ipynb b/Flamengo_DB.ipynb[m
+[1mindex 108390c..af0a4b2 100644[m
+[1m--- a/Flamengo_DB.ipynb[m
+[1m+++ b/Flamengo_DB.ipynb[m
+[36m@@ -2,7 +2,7 @@[m
+  "cells": [[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 5,[m
+[32m+[m[32m   "execution_count": 21,[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -15,7 +15,7 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 6,[m
+[32m+[m[32m   "execution_count": 23,[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -35,7 +35,7 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 7,[m
+[32m+[m[32m   "execution_count": 24,[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -46,7 +46,7 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 8,[m
+[32m+[m[32m   "execution_count": 25,[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -375,7 +375,7 @@[m
+        "[380 rows x 13 columns]"[m
+       ][m
+      },[m
+[31m-     "execution_count": 8,[m
+[32m+[m[32m     "execution_count": 25,[m
+      "metadata": {},[m
+      "output_type": "execute_result"[m
+     }[m
+[36m@@ -386,7 +386,7 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 9,[m
+[32m+[m[32m   "execution_count": 26,[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -417,7 +417,7 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 10,[m
+[32m+[m[32m   "execution_count": 27,[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -426,7 +426,7 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 11,[m
+[32m+[m[32m   "execution_count": 28,[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -441,7 +441,7 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 12,[m
+[32m+[m[32m   "execution_count": 32,[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -476,157 +476,58 @@[m
+        "  </thead>\n",[m
+        "  <tbody>\n",[m
+        "    <tr>\n",[m
+[31m-       "      <th>0</th>\n",[m
+[31m-       "      <td>297885</td>\n",[m
+[31m-       "      <td>1</td>\n",[m
+[31m-       "      <td>08/08/2020</td>\n",[m
+[31m-       "      <td>Fortaleza EC</td>\n",[m
+[31m-       "      <td>CA Paranaense</td>\n",[m
+[31m-       "      <td>0</td>\n",[m
+[31m-       "      <td>2</td>\n",[m
+[31m-       "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>1</th>\n",[m
+[31m-       "      <td>297879</td>\n",[m
+[31m-       "      <td>1</td>\n",[m
+[31m-       "      <td>08/08/2020</td>\n",[m
+[32m+[m[32m       "      <th>152</th>\n",[m
+[32m+[m[32m       "      <td>298032</td>\n",[m
+[32m+[m[32m       "      <td>16</td>\n",[m
+[32m+[m[32m       "      <td>14/10/2020</td>\n",[m
+[32m+[m[32m       "      <td>SE Palmeiras</td>\n",[m
+        "      <td>Coritiba FBC</td>\n",[m
+[31m-       "      <td>SC Internacional</td>\n",[m
+[31m-       "      <td>0</td>\n",[m
+[31m-       "      <td>1</td>\n",[m
+[31m-       "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>2</th>\n",[m
+[31m-       "      <td>297882</td>\n",[m
+        "      <td>1</td>\n",[m
+[31m-       "      <td>09/08/2020</td>\n",[m
+[31m-       "      <td>SC Recife</td>\n",[m
+[31m-       "      <td>Ceará SC</td>\n",[m
+        "      <td>3</td>\n",[m
+[31m-       "      <td>2</td>\n",[m
+        "    </tr>\n",[m
+        "    <tr>\n",[m
+[31m-       "      <th>3</th>\n",[m
+[31m-       "      <td>297877</td>\n",[m
+[31m-       "      <td>1</td>\n",[m
+[31m-       "      <td>09/08/2020</td>\n",[m
+[31m-       "      <td>Santos FC</td>\n",[m
+[31m-       "      <td>RB Bragantino</td>\n",[m
+[31m-       "      <td>1</td>\n",[m
+[32m+[m[32m       "      <th>153</th>\n",[m
+[32m+[m[32m       "      <td>298026</td>\n",[m
+[32m+[m[32m       "      <td>16</td>\n",[m
+[32m+[m[32m       "      <td>14/10/2020</td>\n",[m
+[32m+[m[32m       "      <td>Grêmio FBPA</td>\n",[m
+[32m+[m[32m       "      <td>Botafogo FR</td>\n",[m
+[32m+[m[32m       "      <td>3</td>\n",[m
+        "      <td>1</td>\n",[m
+        "    </tr>\n",[m
+        "    <tr>\n",[m
+[31m-       "      <th>4</th>\n",[m
+[31m-       "      <td>297880</td>\n",[m
+[31m-       "      <td>1</td>\n",[m
+[31m-       "      <td>09/08/2020</td>\n",[m
+[31m-       "      <td>CR Flamengo</td>\n",[m
+[31m-       "      <td>CA Mineiro</td>\n",[m
+[32m+[m[32m       "      <th>154</th>\n",[m
+[32m+[m[32m       "      <td>298027</td>\n",[m
+[32m+[m[32m       "      <td>16</td>\n",[m
+[32m+[m[32m       "      <td>14/10/2020</td>\n",[m
+[32m+[m[32m       "      <td>Santos FC</td>\n",[m
+[32m+[m[32m       "      <td>AC Goianiense</td>\n",[m
+        "      <td>0</td>\n",[m
+        "      <td>1</td>\n",[m
+        "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>...</th>\n",[m
+[31m-       "      <td>...</td>\n",[m
+[31m-       "      <td>...</td>\n",[m
+[31m-       "      <td>...</td>\n",[m
+[31m-       "      <td>...</td>\n",[m
+[31m-       "      <td>...</td>\n",[m
+[31m-       "      <td>...</td>\n",[m
+[31m-       "      <td>...</td>\n",[m
+[31m-       "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>375</th>\n",[m
+[31m-       "      <td>298251</td>\n",[m
+[31m-       "      <td>38</td>\n",[m
+[31m-       "      <td>25/02/2021</td>\n",[m
+[31m-       "      <td>CR Vasco da Gama</td>\n",[m
+[31m-       "      <td>Goiás EC</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>376</th>\n",[m
+[31m-       "      <td>298252</td>\n",[m
+[31m-       "      <td>38</td>\n",[m
+[31m-       "      <td>25/02/2021</td>\n",[m
+[31m-       "      <td>Fluminense FC</td>\n",[m
+[31m-       "      <td>Fortaleza EC</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>377</th>\n",[m
+[31m-       "      <td>298253</td>\n",[m
+[31m-       "      <td>38</td>\n",[m
+[31m-       "      <td>25/02/2021</td>\n",[m
+[31m-       "      <td>CA Paranaense</td>\n",[m
+[31m-       "      <td>SC Recife</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>378</th>\n",[m
+[31m-       "      <td>298254</td>\n",[m
+[31m-       "      <td>38</td>\n",[m
+[31m-       "      <td>25/02/2021</td>\n",[m
+[31m-       "      <td>Ceará SC</td>\n",[m
+[31m-       "      <td>Botafogo FR</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "    </tr>\n",[m
+[31m-       "    <tr>\n",[m
+[31m-       "      <th>379</th>\n",[m
+[31m-       "      <td>298255</td>\n",[m
+[31m-       "      <td>38</td>\n",[m
+[31m-       "      <td>25/02/2021</td>\n",[m
+[31m-       "      <td>RB Bragantino</td>\n",[m
+[31m-       "      <td>Grêmio FBPA</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "      <td>-99999</td>\n",[m
+[31m-       "    </tr>\n",[m
+        "  </tbody>\n",[m
+        "</table>\n",[m
+[31m-       "<p>380 rows × 7 columns</p>\n",[m
+        "</div>"[m
+       ],[m
+       "text/plain": [[m
+[31m-       "     MATCH_ID  MATCH_DAY        DATE              HOME              AWAY  \\\n",[m
+[31m-       "0      297885          1  08/08/2020      Fortaleza EC     CA Paranaense   \n",[m
+[31m-       "1      297879          1  08/08/2020      Coritiba FBC  SC Internacional   \n",[m
+[31m-       "2      297882          1  09/08/2020         SC Recife          Ceará SC   \n",[m
+[31m-       "3      297877          1  09/08/2020         Santos FC     RB Bragantino   \n",[m
+[31m-       "4      297880          1  09/08/2020       CR Flamengo        CA Mineiro   \n",[m
+[31m-       "..        ...        ...         ...               ...               ...   \n",[m
+[31m-       "375    298251         38  25/02/2021  CR Vasco da Gama          Goiás EC   \n",[m
+[31m-       "376    298252         38  25/02/2021     Fluminense FC      Fortaleza EC   \n",[m
+[31m-       "377    298253         38  25/02/2021     CA Paranaense         SC Recife   \n",[m
+[31m-       "378    298254         38  25/02/2021          Ceará SC       Botafogo FR   \n",[m
+[31m-       "379    298255         38  25/02/2021     RB Bragantino       Grêmio FBPA   \n",[m
+[31m-       "\n",[m
+[31m-       "     GOALS_HOME  GOALS_AWAY  \n",[m
+[31m-       "0             0           2  \n",[m
+[31m-       "1             0           1  \n",[m
+[31m-       "2             3           2  \n",[m
+[31m-       "3             1           1  \n",[m
+[31m-       "4             0           1  \n",[m
+[31m-       "..          ...         ...  \n",[m
+[31m-       "375      -99999      -99999  \n",[m
+[31m-       "376      -99999      -99999  \n",[m
+[31m-       "377      -99999      -99999  \n",[m
+[31m-       "378      -99999      -99999  \n",[m
+[31m-       "379      -99999      -99999  \n",[m
+[32m+[m[32m       "     MATCH_ID  MATCH_DAY        DATE          HOME           AWAY  GOALS_HOME  \\\n",[m
+[32m+[m[32m       "152    298032         16  14/10/2020  SE Palmeiras   Coritiba FBC           1   \n",[m
+[32m+[m[32m       "153    298026         16  14/10/2020   Grêmio FBPA    Botafogo FR           3   \n",[m
+[32m+[m[32m       "154    298027         16  14/10/2020     Santos FC  AC Goianiense           0   \n",[m
+        "\n",[m
+[31m-       "[380 rows x 7 columns]"[m
+[32m+[m[32m       "     GOALS_AWAY  \n",[m
+[32m+[m[32m       "152           3  \n",[m
+[32m+[m[32m       "153           1  \n",[m
+[32m+[m[32m       "154           1  "[m
+       ][m
+      },[m
+[31m-     "execution_count": 12,[m
+[32m+[m[32m     "execution_count": 32,[m
+      "metadata": {},[m
+      "output_type": "execute_result"[m
+     }[m
+    ],[m
+    "source": [[m
+[31m-    "df_matches"[m
+[32m+[m[32m    "df_matches[df_matches['DATE'] == '14/10/2020']"[m
+    ][m
+   },[m
+   {[m
